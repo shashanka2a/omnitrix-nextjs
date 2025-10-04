@@ -305,32 +305,27 @@ export default function App() {
                 {
                   icon: <Bot className="w-6 h-6 md:w-8 md:h-8" />,
                   title: "Autonomous Agents",
-                  description: "AI agents continuously monitor and validate supply chain data without human intervention.",
-                  emoji: "🤖"
+                  description: "AI agents continuously monitor and validate supply chain data without human intervention."
                 },
                 {
                   icon: <Link className="w-6 h-6 md:w-8 md:h-8" />,
                   title: "On-Chain Verification",
-                  description: "Immutable blockchain records ensure data integrity and enable trust-free auditing.",
-                  emoji: "🔗"
+                  description: "Immutable blockchain records ensure data integrity and enable trust-free auditing."
                 },
                 {
                   icon: <Radio className="w-6 h-6 md:w-8 md:h-8" />,
                   title: "IoT Data Streams",
-                  description: "Real-time sensor integration from temperature, location, and quality monitoring devices.",
-                  emoji: "📡"
+                  description: "Real-time sensor integration from temperature, location, and quality monitoring devices."
                 },
                 {
                   icon: <Brain className="w-6 h-6 md:w-8 md:h-8" />,
                   title: "Predictive Quality Control",
-                  description: "Machine learning models predict quality issues before they impact your supply chain.",
-                  emoji: "🧠"
+                  description: "Machine learning models predict quality issues before they impact your supply chain."
                 },
                 {
                   icon: <FileText className="w-6 h-6 md:w-8 md:h-8" />,
                   title: "Auto Compliance Reports",
-                  description: "Automated generation of regulatory compliance documentation and audit trails.",
-                  emoji: "🧾"
+                  description: "Automated generation of regulatory compliance documentation and audit trails."
                 }
               ].map((feature, index) => (
                 <motion.div
@@ -346,7 +341,6 @@ export default function App() {
                     <CardContent className="p-5 md:p-6 h-full">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="text-[#00E7FF] group-hover:scale-110 transition-transform duration-200">{feature.icon}</div>
-                        <span className="text-xl md:text-2xl group-hover:scale-110 transition-transform duration-200">{feature.emoji}</span>
                       </div>
                       <h3 className="text-lg md:text-xl mb-3 text-white font-bold">{feature.title}</h3>
                       <p className="text-gray-300 text-sm md:text-base leading-relaxed">{feature.description}</p>
@@ -380,7 +374,7 @@ export default function App() {
               >
                 <div className="text-4xl md:text-6xl text-[#00E7FF] mb-6 md:mb-8 group-hover:scale-110 transition-transform duration-300">&ldquo;</div>
                 <blockquote className="text-xl md:text-2xl lg:text-3xl leading-relaxed mb-6 md:mb-8 px-4">
-                  Every sensor, shipment, and smart contract u2014 connected by OmniTrix.
+                  Every sensor, shipment, and smart contract — connected by OmniTrix.
                 </blockquote>
                 <div className="text-gray-300 text-sm md:text-base">
                   The future of autonomous supply chains
