@@ -62,7 +62,7 @@ export default function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: shouldReduceMotion ? 0.1 : 0.8, delay: shouldReduceMotion ? 0 : 0.4 }}
               >
-                The On-Chain Brain of the Real World
+                Intelligence, Automation & Efficiency for Supply Chain
               </motion.h2>
               
               <motion.p 
@@ -71,7 +71,7 @@ export default function App() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: shouldReduceMotion ? 0.1 : 0.8, delay: shouldReduceMotion ? 0 : 0.6 }}
               >
-                Where IoT meets intelligence to make supply chains self-driving
+                Transform your supply chain with intelligent automation and efficiency through AI, IoT, and blockchain technology
               </motion.p>
               
               <motion.div 
@@ -106,7 +106,7 @@ export default function App() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: shouldReduceMotion ? 0.1 : 0.8, delay: shouldReduceMotion ? 0 : 1 }}
               >
-                Autonomy for Everything Connected
+                Intelligent Automation for Supply Chain Excellence
               </motion.p>
             </motion.div>
           </div>
@@ -437,10 +437,10 @@ export default function App() {
                   OmniTrix
                 </h3>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Autonomous on-chain intelligence platform connecting AI agents, IoT, and blockchain technology.
+                  Bringing intelligence, automation, and efficiency to supply chain operations through AI, IoT, and blockchain technology.
                 </p>
                 <p className="text-[#00E7FF] text-sm font-medium">
-                  Autonomy for Everything Connected
+                  Intelligent Automation for Supply Chain Excellence
                 </p>
               </div>
 
